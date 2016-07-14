@@ -7,3 +7,7 @@
   document.body.appendChild(i)
   i.contentDocument.write(s);
   i.contentDocument.close();
+
+    var i = document.createElement("iframe");
+  i.src = 'http://tsaimingda.github.io/practice/';
+  document.body.appendChild(i)
